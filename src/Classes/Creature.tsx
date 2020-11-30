@@ -18,7 +18,7 @@ export abstract class Creature {
   }
 
   handleDeath(): void {
-    console.log('You Died!');
+    console.log(`${this.name} died!`);
   }
 
   move(move: string): number | void {
